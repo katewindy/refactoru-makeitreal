@@ -1,0 +1,161 @@
+.bgcontainer {
+	height: 100%;
+	width: 100%;
+	background: #7F8C8D;
+}
+
+.maincontainer {
+	position: relative;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+
+	
+
+	border: 1px solid black;
+}
+
+.header {
+	height: 200px;
+	background: #2ECC71;
+	border-bottom: 5px solid #28A05E;
+
+
+}
+
+.pagetitle {
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+	position:relative;
+	bottom: 10px;
+}
+
+.headernav {
+
+}
+
+.headnavlist {
+
+}
+
+.articlewrapper{
+
+}
+
+.article {
+
+}
+
+.articletitle {
+
+}
+
+.textblock {
+
+}
+
+.sectiontitle {
+
+}
+
+.tablewrapper {
+
+}
+
+.articletable {
+
+}
+
+.button {
+
+}
+
+.bluebutton {
+
+}
+
+.redbutton {
+
+}
+
+.codeexample {
+
+}
+
+.imagewrapper {
+
+}
+
+.listwrapper {
+
+}
+
+.bold {
+
+}
+
+.articlefooter {
+
+}
+
+.footerbold {
+
+}
+
+.commentsection {
+
+}
+
+.commenttitle {
+
+}
+
+.commentsectiontitle {
+
+}
+
+.commentuserinfo {
+
+}
+
+.commentform {
+
+}
+
+.existingcomments {
+
+}
+
+.user-img {
+
+}
+
+.commentmade {
+
+}
+
+.username {
+
+}
+
+.commentdate {
+
+}
+
+.navcontainer {
+	width: 150px;
+	background: #fff;
+	border-bottom: 3px solid #444444;
+	padding: 10px;
+
+}
+
+.navtitle {
+
+}
+
+.navlink {
+
+}
