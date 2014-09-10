@@ -20,20 +20,20 @@
 			<!-- dark navigation bar -->
 			<div class="headernav">
 				<ol class="headnavlist">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">All Posts</a></li>
-					<li><a href="#">About Us</a></li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ALL POSTS</a></li>
+					<li><a href="#">ABOUT US</a></li>
 				</ol>
 			</div>
 			<!-- begin main content -->
 			<div class="articlewrapper">
 				<!-- main article goes in there -->
 				<div class="article">
-					<h1 class="articletitle">Article Title</h1>
+					<h1 class="header1">Article Title</h1>
 					
 					<div class="textblock">
-						p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur debitis dolor quis dolorem voluptas fuga voluptatem esse, maxime facere commodi eum velit nostrum mollitia recusandae, optio saepe dignissimos nobis.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati corporis perspiciatis cum minima. Sunt quibusdam soluta, <a href="#">vitae cupiditate ab unde</a>, non officia deleniti quam blanditiis voluptate, veritatis placeat a minus.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur debitis dolor quis dolorem voluptas fuga voluptatem esse, maxime facere commodi eum velit nostrum mollitia recusandae, optio saepe dignissimos nobis.</p>
+						<p>Lorem ipsum dolor sit amet, <span class="bold">consectetur adipisicing</span> elit. Obcaecati corporis perspiciatis cum minima. Sunt quibusdam soluta, <a href="#">vitae cupiditate ab unde</a>, non officia deleniti quam blanditiis voluptate, veritatis placeat a minus.</p>
 					</div>
 
 					<h2 class="sectiontitle">Section Title</h2>
@@ -76,8 +76,8 @@
 					</div>
 					<!-- codeblock for within article -->
 					<div class="codeexample">
-						<p>$('#myElement>.click(function(){
-							console.log('clicked!')
+						<p>$('#myElement>.click(function(){<br>
+							&nbsp;&nbsp;console.log('clicked!')<br>
 							});</p>
 					</div>
 					<div class="textblock">
@@ -89,7 +89,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, sed alias mollitia iste assumenda eum tenetur architecto aperiam! Molestias eius, eaque porro autem atque iusto quaerat fuga aliquid expedita assumenda.</p>
 					</div>
 					<div class="imagewrapper">
-						<img src="http://placehold.it/450x100">
+						<img src="http://placehold.it/460x100">
 					</div>
 					<div class="listwrapper">
 						<ol>
@@ -101,27 +101,35 @@
 				</div>
 				<!-- begin article byline -->
 				<div class="articlefooter">
-					<p>Posted by <span class="footerbold">Author</span> under <span class="footerbold">Web&gt;Dev</span> on <span class="footerbold">January 13, 2014</span></p>
+					<p>Posted by <span class="bold">Author</span> under <span class="bold">Web&gt;Dev</span> on <span class="bold">January 13, 2014</span></p>
 				</div>
 			</div>
 			<!-- start of comment input area -->
 			<div class="commentsection">
-				<h1 class="commenttitle">Comments</h1>
-				<h3 class="commentsectiontitle">USER INFO</h3>
+				<h1 class="header1">Comments</h1>
+				<div class="commentsectionstrike">
+					<h3 class="commentsectiontitle">USER INFO</h3>
+				</div>
 				<div class="commentuserinfo">
 					<form action="">
-						Email: <input type="text" name="email"><br>
-						Display Name: <input type="text" name="displayname"><br>
-						Website: <input type="text" name="website">
+						Email: <input class="userinput" type="text" name="email"><br>
+						<div class="extrapadding5px"></div>
+						Display Name: <input class="userinput" type="text" name="displayname"><br>
+						<div class="extrapadding5px"></div>
+						Website: <input class="userinput" type="text" name="website">
 					</form>
 				</div>
-				<h3 class="commentsectiontitle">COMMENT</h3>
+				<div class="extrapadding20px"></div>
+				<div class="commentsectionstrike">
+					<h3 class="commentsectiontitle">COMMENT</h3>
+				</div>
 				<div class="commentform">
-					<textarea rows="10">
+					<textarea class="textinput" rows="10">
 						
 					</textarea>
 				</div>
 				<a href="#" class="button redbutton">SUBMIT</a>
+				<div class="extrapadding20px"></div>
 				<!-- Previous comments go below here -->
 				<div class="existingcomments">
 					<div class="user-img">
