@@ -5,14 +5,18 @@
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
-
+.article-nav {
+	width: 700px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
 .maincontainer {
 	position: relative;
 	width:500px;
-	margin-left: auto;
-	margin-right: auto;
 	overflow: auto;
 	background: #ECF0F1;
+	display: inline-block;
 
 	
 
@@ -25,9 +29,10 @@
 	background: #2ECC71;
 	border-bottom: 5px solid #28A05E;
 	position: relative;
-
-
 }
+
+
+
 
 .pagetitle {
 	font-size: 25px;
@@ -240,27 +245,57 @@
 }
 
 .user-img {
-
+	float: left;
+	padding: 0px 5px 0px 0px;
 }
 
 .commentmade {
-
+	margin-left: 70px;
 }
 
 .username {
-
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: -0.5em;
 }
 
 .commentdate {
+	color: #BDC3C7;
+	font-style: italic;
+	font-size: 12px;
+	margin-bottom: 1.7em;
+}
+
+.comment {
+	font-size: 13px;
+}
+
+.nested {
+	border-left: 1px solid #BDC3C7;
+	margin-left: 50px;
+	padding: 0px 20px 0px 14px;
 
 }
 
+.sidebar {
+	display: inline-block;
+	vertical-align: 14013%;
+	padding-left: 10px;
+}
 .navcontainer {
 	width: 150px;
-	background: #fff;
+	background: #ECF0F1;
 	border-bottom: 3px solid #444444;
 	padding: 10px;
+	display:inline-block;
+	position: relative;
+	font-size: 13px;
+	
+}
 
+.navcontainer ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 .navtitle {
@@ -268,5 +303,10 @@
 }
 
 .navlink {
+	font-size: 13px;
+	margin-left: 8px;
+	text-decoration: none;
+	color: #726666;
+	line-height: 1.5em
 
 }
