@@ -1,204 +1,156 @@
+/*creates background for page and contains all other elements*/
 .bgcontainer {
 	height: 100%;
-	width: 100%;
 	background: #7F8C8D;
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
+/*container for both main column and nav bar*/
 .article-nav {
 	width: 700px;
-	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
+/*container for main column*/
 .maincontainer {
-	position: relative;
 	width:500px;
 	overflow: auto;
 	background: #ECF0F1;
 	display: inline-block;
-
-	
-
-	/*border: 1px solid black;*/
 }
-
+/*HEADER AND TOP NAVIGATION*/
+/*style for green header block*/
 .header {
 	height: 200px;
-	width: 100%;
 	background: #2ECC71;
 	border-bottom: 5px solid #28A05E;
 	position: relative;
 }
-
-
-
-
+/*"my website" in green header*/
 .pagetitle {
 	font-size: 25px;
 	color: #fff;
 	font-weight: bold;
 	position:absolute;
 	bottom: 0;
-	left: 0;
 	padding-left: 10px;
-	padding-bottom: 10px;
-
-
-	
+	padding-bottom: 10px;	
 }
-
+/*blue top navigation bar styles*/
 .headernav {
  	height:35px;
  	background: #34495E;
  	border-bottom: 4px solid #2C3E50;
- 	
 }
-
+/*styles for navigation list ol*/
 .headnavlist {
-	list-style-type: none;
-	display: inline-block;
-	padding-left: 0px;
 	float:right;
 	margin: 10px 0px;
-
 }
-
+/*styles for navigation list items*/
 .headnavlist li {
 	display: inline;
-
-
 }
-
+/*style font for links in top navigation*/
 .headnavlist a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 11px;
 	padding: 0px 15px;
-
 }
-
-
-.articlewrapper{
-	background: #ECF0F1;
+/*ARTICLE STYLES*/
+/*wrapper for blog post or whatever it is*/
+.articlewrapper {
 	padding: 30px 20px;
 }
-
-.article {
-
-
-}
-
+/*styles for large section headers*/
 .header1 {
 	font-size: 18px;
 	padding-bottom: 10px;
 }
-
+/*style for all text blocks through article*/
 .textblock {
 	font-size: 13px;
 	margin-left: 10px;
 	line-height: 150%;
 }
-
+/*style for links within text blocks*/
 .textblock a {
 	color: #D35400;
 	text-decoration: none;
 }
-
+/*styling for section break titles*/
 .sectiontitle {
-	width: 460px;
 	border-bottom: 1px solid #999999;
 	padding-bottom: 3px;
 	margin-top: 30px;
 	font-size: 14px;
 }
-
-.tablewrapper {
-
-}
-
+/*empty class for use with styling table elements*/
 .articletable {
 	
 }
+/*article table header styles*/
 .articletable th {
 	border: 1px solid #999999;
 	text-align:left;
 	font-size: 13px;
-	font-weight: bold;
 	padding: 8px;
 	background: #BDC3C7;
-
 }
-
+/*article table cell styles*/
 .articletable td {
 	border: 1px solid #999999;
 	font-size: 13px;
-	text-align: left;
 	padding: 8px;
 }
-
-
-
-.button {
-	color: #fff;
-	font-size: 11px;
-	text-decoration: none;
-
-}
-
-.bluebutton {
-	background: #3498DB;
-	padding: 7px 20px;
-}
-
-.redbutton {
-	background: #C0392B;
-	padding: 10px 209px; 
-
-}
-
+/*codeblock styling*/
 .codeexample {
-	position: relative;
- 	width: 400px;
  	background: #BDC3C7;
  	padding: 25px 30px;
  	font-family: Courier;
  	font-size: 13px;
 }
-
-.imagewrapper {
-	
-}
-
+/*container for article lists*/
 .listwrapper {
 	font-size: 13px;
 	line-height: 150%;
 }
-
-.bold {
-	font-weight: bold;
-}
-
+/*styling for article byline*/
 .articlefooter {
 	font-size: 13px;
 	color: #A09999;
 	margin-top: 30px;
-
-
 }
-
+/*BUTTON STYLES*/
+/*common styling for all buttons*/
+.button {
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+}
+/*extra styling for blue buttons*/
+.bluebutton {
+	background: #3498DB;
+	padding: 7px 20px;
+}
+/*extra styling for red buttons*/
+.redbutton {
+	background: #C0392B;
+	padding: 10px 209px; 
+}
+/*COMMENT SECTION*/
+/*wrapper for entire comment section*/
 .commentsection {
 	padding: 0px 20px 20px 20px;
 }
-
+/*styling for the line through section titles*/
 .commentsectionstrike {
 	height: 1px;
 	background: #BDC3C7;
 	margin-bottom: 35px;
-	
-
 }
-
+/*styling for said section titles*/
 .commentsectiontitle {
 	color: #BDC3C7;
 	font-size: 12px;
@@ -209,104 +161,91 @@
 	left: 20px;
 	display: inline;
 	padding: 0px 10px;
-
-
 }
-
+/*container for commenter information form area*/
 .commentuserinfo {
 	font-size: 13px;
 	text-align: right;
 }
-
+/*styling for customer information fields*/
 .userinput {
 	width: 70%;
 	height: 25px;
-
-	
 }
-
-.extrapadding5px {
-	height: 5px;
-}
-.extrapadding20px {
-	height: 35px;
-}
-.commentform {
-
-}
-
+/*styling for the main comment input*/
 .textinput {
 	width: 450px;
 	margin-bottom: 30px
 }
-
-.existingcomments {
-
-}
-
+/*floats the commenter pictures to the left*/
 .user-img {
 	float: left;
-	padding: 0px 5px 0px 0px;
 }
-
+/*additional styling for usernames and comment dates*/
 .commentmade {
 	margin-left: 70px;
 }
-
+/*commenter name styling*/
 .username {
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: -0.5em;
 }
-
+/*styling for date comment was made*/
 .commentdate {
 	color: #BDC3C7;
 	font-style: italic;
 	font-size: 12px;
 	margin-bottom: 1.7em;
 }
-
+/*actual comment itself*/
 .comment {
 	font-size: 13px;
 }
-
+/*extra styling for nested comments*/
 .nested {
 	border-left: 1px solid #BDC3C7;
 	margin-left: 50px;
 	padding: 0px 20px 0px 14px;
-
 }
 
+/*RIGHT NAVIGATION BOX*/
+/*container for the right navigation*/
 .sidebar {
 	display: inline-block;
 	vertical-align: 14013%;
 	padding-left: 10px;
 }
+/*actual box for right navigation*/
 .navcontainer {
 	width: 150px;
 	background: #ECF0F1;
 	border-bottom: 3px solid #444444;
 	padding: 10px;
-	display:inline-block;
-	position: relative;
 	font-size: 13px;
-	
 }
-
+/*styling for ul that all the links are in*/
 .navcontainer ul {
 	list-style-type: none;
 	padding: 0;
 }
-
-.navtitle {
-
-}
-
+/*styling for nav links*/
 .navlink {
-	font-size: 13px;
 	margin-left: 8px;
 	text-decoration: none;
 	color: #726666;
 	line-height: 1.5em
-
+}
+/*EXTRAS*/
+/*i feel like this is cheating, but this is an empty div that is 5px high*/
+.extrapadding5px {
+	height: 5px;
+}
+/*and this one is the same, but 35px*/
+.extrapadding35px {
+	height: 35px;
+}
+/*class for bolding text because why not*/
+.bold {
+	font-weight: bold;
 }
